@@ -7,7 +7,7 @@ It provides a simple browser interface to perform basic arithmetic operations.
 
 ## 📂 Project Structure
 calculator-app/
-├─ app.py
+├─ calculator.py
 ├─ requirements.txt
 └─ templates/
       └─ calculator.html
@@ -28,7 +28,7 @@ calculator-app/
    pip install -r requirements.txt
 
 2. Start the app:
-   python app.py
+   python calculator.py
 
 3. Open your browser at:
    http://localhost:8080/
