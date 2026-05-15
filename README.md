@@ -6,12 +6,12 @@ It provides a simple browser interface to perform basic arithmetic operations.
 ---
 
 ## 📂 Project Structure
-calculator-app/
+```calculator-app/
    ├─ calculator.py
    ├─ requirements.txt
    └─ templates/
         └─ calculator.html
-
+```
 ---
 
 ## ⚙️ Requirements
