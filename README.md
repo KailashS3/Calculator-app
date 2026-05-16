@@ -33,7 +33,7 @@ calculator-app/
 3. Open your browser at:
    http://localhost:8080/
 
-🐳 Run with Docker
+## 🐳 Run with Docker
 
 1. Build the Docker image:
    docker build -t python-calculator .
