@@ -24,22 +24,32 @@ calculator-app/
 
 ## ▶️ Run Locally
 
-1. Install dependencies:
+1. Clone the repo:
+```
+   git clone <your-repo-url>
+   cd resume-app
+```
+2. Install dependencies
+```
    pip install -r requirements.txt
-
-2. Start the app:
-   python calculator.py
-
-3. Open your browser at:
+```
+3. Start the app:
+```
+  python calculator.py
+```
+4. Open your browser at:
+```
    http://localhost:8080/
+```
 
 ## 🐳 Run with Docker
 
-1. Build the Docker image:
+1. 
+2. Build the Docker image:
    docker build -t python-calculator .
 
-2. Run the container:
+3. Run the container:
    docker run -p 8080:8080 python-calculator
 
-3. Access the app in your browser:
+4. Access the app in your browser:
    http://localhost:8080/
