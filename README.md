@@ -26,7 +26,7 @@ calculator-app/
 
 1. Clone the repo:
 ```
-   git clone <your-repo-url>
+   git clone https://github.com/KailashS3/Calculator-app.git
    cd resume-app
 ```
 2. Install dependencies
@@ -44,12 +44,16 @@ calculator-app/
 
 ## 🐳 Run with Docker
 
-1. 
-2. Build the Docker image:
+1. Build the Docker image:
+```
    docker build -t python-calculator .
+```
 
-3. Run the container:
+2. Run the container:
+``` 
    docker run -p 8080:8080 python-calculator
-
-4. Access the app in your browser:
+```
+3. Access the app in your browser:
+``` 
    http://localhost:8080/
+```
